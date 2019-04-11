@@ -1,0 +1,113 @@
+@media (max-width: 992px){
+
+    #tf-menu a.navbar-brand {
+        font-size: 18px;
+        }
+    #tf-menu a.navbar-brand span {
+        display: none;
+        }
+    #tf-home .content {
+        height: 100%;
+        }
+}
+
+@media (max-width: 767px){
+
+    #tf-menu a.navbar-brand span {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 768px){
+
+    #tf-home .content {
+        height: 100%;
+    }
+    .navbar-header {
+        padding: 10px 0;
+    }
+    .navbar-toggle{
+        border: none;
+    }
+    .navbar-brand{
+        padding: 10px 20px;
+    }
+    #tf-menu.navbar-default {
+        background-color: rgba(0, 0, 0, 0.79);
+    }
+    #tf-menu a.navbar-brand {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 603px){
+
+#tf-menu.navbar-default {
+	background-color: rgba(0, 0, 0, 0.79);
+	}
+#tf-works li.pull-right, #tf-works li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}
+label {
+    float: none !important
+    }
+.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
+    }
+
+.hover-bg .hover-text {
+    padding: 12% 10%;
+    }
+
+}
+
+@media (max-width: 360px){
+    .hover-bg .hover-text {
+        padding: 22% 10%;
+    }
+    #tf-menu {
+        padding: 10px 0;
+    }
+    #tf-home .content{
+        padding-top: 150px;
+        height: 100vh;
+    }
+    #tf-home .overlay .content .home-btn {
+        margin-top: 30px;
+    }
+    #tf-menu a.navbar-brand {
+        font-size: 18px;
+    }
+    #tf-home h1 {
+        font-size: 24px;
+    }
+    #tf-home h2.lead{
+        font-size: 1.2em;
+    }
+    #tf-home .content a.fa.fa-angle-down {
+        left: 46%;
+    }
+}
+@media (max-width: 320px){
+    #tf-home .content {
+        padding-top: 35%;
+    }
+    #tf-home h1 {
+        font-size: 20px;
+    }
+    #tf-home h2.lead{
+        font-size: 1em;
+    }
+    #tf-home .overlay img {
+        width: 80px;
+    }
+    #tf-home .content a.fa.fa-angle-down {
+        display: none;
+    }
+}
